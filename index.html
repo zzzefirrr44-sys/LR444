@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курси для навчання</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Курси для навчання</h1>
+    <p>Шкляр Захарій Іванович</p>
+</header>
+
+<main>
+    <section>
+        <h2>Список курсів</h2>
+        <div id="courses"></div>
+    </section>
+
+    <section>
+        <h2>Керування курсами</h2>
+
+        <button onclick="addCourse()">Додати курс</button>
+        <button onclick="sortCourses()">Сортувати за тривалістю</button>
+        <button onclick="showUncompleted()">Незавершені курси</button>
+        <button onclick="findCourse()">Знайти курс</button>
+        <button onclick="showAverageDuration()">Середня тривалість</button>
+
+        <div id="result"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Шкляр З. І.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
